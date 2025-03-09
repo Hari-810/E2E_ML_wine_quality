@@ -1,0 +1,7 @@
+artifacts_root: artifacts # Root directory for storing all artifacts generated during different stages
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion # Directory where data ingestion artifacts will be stored
+  source_URL: https://github.com/Hari-810/E2E_ML_wine_quality/blob/dataset/data.zip # URL to download the dataset
+  local_data_file: artifacts/data_ingestion/data.zip # Path to store the downloaded ZIP file
+  unzip_dir: artifacts/data_ingestion # Directory where the extracted files will be stored
